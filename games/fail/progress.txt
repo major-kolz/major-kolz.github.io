@@ -1,0 +1,6 @@
+init
+restart: 98,
+repeat: 279,
+lvl: 6,
+comp: 12,
+die: 18,

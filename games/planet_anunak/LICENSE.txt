@@ -1,0 +1,22 @@
+	Игра написана Константином Таро и Николаем Коноваловым.  
+	Распространяется под лицензией CC BY-NC 4.0 (http://creativecommons.org/licenses/by-nc/4.0/). То есть:
+	- игру можно свободно распространять и копировать при условии указания авторства
+	- не может использоваться в коммерческих целях.  
+
+=== Информация об используемом контенте (где известно)
+img/
+	Основной для фонового узора темы послужили следующие обои: http://takefon.com/load/abstrakcija/fraktalnyj_uzor_svechenie_chernyj_fon/2-1-0-132 
+	Дизайн для moral-bar'ов появился в результате слияния дизайнерских идей Алекса Панкратова (http://www.uiparade.com/portfolio/minimal-loading-bar/) и Патрика Монкеля (http://www.uiparade.com/portfolio/slick-progress-bar/)
+
+mus/
+	menu - 'SpaceX', Symbiants, CC BY-NC-SA 3.0, https://www.jamendo.com/track/1250957/spacex 
+	wind - kangaroovindaloo, CC BY 3.0, https://www.freesound.org/people/kangaroovindaloo/sounds/205966/
+	main theme - "Планета песков", Disou, права не известны, первоисточник (скорее всего): http://www.elite-games.ru/music/preview.shtml (это перечень треков, ищите поиском по странице)
+
+snd/
+	Файлы не подвергались никаким изменениям - кроме того что могут являться фрагментами оригинальных аудиофайлов.
+
+	dicing1 - 'Dice Rolling - Dungeon and Dragons', Joanne, CC0 1.0, https://www.freesound.org/people/joanneneedsthesound/sounds/177208/
+	dicing2 - 'Dices 4', Aiwha, CC BY 3.0, https://www.freesound.org/people/Aiwha/sounds/250713/
+	dicing3 - dermotte, CC BY 3.0, https://www.freesound.org/people/dermotte/sounds/220744/
+	error - ecfike, CC0 1.0, https://www.freesound.org/people/ecfike/sounds/135125/
