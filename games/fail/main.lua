@@ -18,35 +18,10 @@ format.quotes 	= true	-- замена " " на типографские << >>;
 require "snapshots"
 require 'cutscene'
 
-dofile 'prsaver.lua'		-- сохранение игровых достижений.
 dofile 'outdoor_island.lua'
 dofile "another.lua";
 
-button = menu{
-	nam = 'кнопка',
-	log = {
-		[1] = {'lvl', 1},
-		[2] = {'comp', 2},
-		[3] = {'die', 3},
-	},
-	menu = function(s)
-		prwrite(s.log);
-		local hold = pread();
-		for i = 1, #hold do
-			pn (hold[i]);
-		end
-	end,
-	used = function()
-		p 'ok';
-	end,
-}
-
-function init()
-	--take('button');
-end
-
 function try_again()
---	prwrite({'repeat', 1});
 	restore_snapshot();
 	return true;
 end
@@ -124,7 +99,6 @@ main = room{
 	entered = function()
 		init_prsaves();
 		set_music('mus/paintedDream.ogg');
-
 	end,
 	left = code [[put('Talli', home); ]],
 	obj = { vway('next', '{Дальше}', 'home'), },

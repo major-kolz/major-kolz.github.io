@@ -1,5 +1,5 @@
 init
-restart: 98,
+restart: 102,
 repeat: 279,
 lvl: 6,
 comp: 12,
